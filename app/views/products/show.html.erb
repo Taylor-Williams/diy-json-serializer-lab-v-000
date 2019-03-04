@@ -14,8 +14,8 @@
         $(".productPrice").text(data["price"])
         $(".productInventory").text(data["inventory"])
         $(".productDescription").text(data["description"])
+        $(".js-next").attr("data-id", data["id"])
       })
-      $(".js-next").attr("data-id", data["id"])
     })
   })
 </script>
